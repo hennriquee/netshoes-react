@@ -24,7 +24,7 @@ function App() {
               <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '100px' }} navbarScroll>
                 <Nav.Link style={{ color: 'white' }} href="/">Página Inicial</Nav.Link>
                 <Nav.Link style={{ color: 'white' }} href="./produtos">Produtos</Nav.Link>
-                <Nav.Link style={{ color: 'white' }} href="https://www.instagram.com/henrique_nns/">Contato</Nav.Link>
+                <Nav.Link target='blank' style={{ color: 'white' }} href="https://www.instagram.com/henrique_nns/">Contato</Nav.Link>
                 <Nav.Link style={{ color: 'white', paddingLeft:'850px' }} href="./usuarios">Usuários</Nav.Link>
               </Nav>
             </Navbar.Collapse>
